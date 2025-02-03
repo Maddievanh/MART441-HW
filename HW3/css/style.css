@@ -5,6 +5,7 @@ body {
 
 }
 
+/* Title */
 h1 {
     font-family:cursive;
     color: black;
@@ -18,3 +19,6 @@ p {
     margin-top: .5em;
 }
 
+button {
+    margin: 5px;  
+}

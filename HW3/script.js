@@ -83,4 +83,3 @@ function createButtons(option1, option2) {
     choicesDiv.innerHTML += `<button onclick="makeChoice('${option1}')">${option1}</button>`;
     choicesDiv.innerHTML += `<button onclick="makeChoice('${option2}')">${option2}</button>`;
 }
-
