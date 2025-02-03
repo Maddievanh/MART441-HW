@@ -1,43 +1,20 @@
 body {
-    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
-    background-color: #a7c2da;
-    color: #333;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
+    background-color: plum;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-#adventure {
-    margin-top: 50px;
 }
 
 h1 {
-    font-size: 2.5em;
-    color: #866f9c;
+    font-family:cursive;
+    color: black;
+
+}
+img {
+    margin-top: .5em;
 }
 
-button {
-    background-color: #a48fb5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
-    font-size: 1em;
+p {
+    margin-top: .5em;
 }
 
-button:hover {
-    background-color: #232c8e;
-}
-
-#choices {
-    margin-top: 20px;
-}
-
-#sceneImage {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    max-width: 600px;
-    margin-top: 20px;
-}
