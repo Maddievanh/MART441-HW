@@ -3,62 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The fairy and the frog</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" type="text/css" href="./fonts/Magical-Stylish-Sans-Serif-Demo.otf">
+    <title>The fairy and the toad</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-    <div id="adventure">
-        <h1>Choose your story</h1>
-        <p id="story">As a fairy is walking in the forest, she stops when she sees a frog. What should she do?</p>
-        
+    <div id="story-container">
+        <h1>The fairy and the toad</h1>
+        <img src="images/fairyai.png" alt="Fairy walking in woods">
+        <p id="story-text">You stand at the edge of a mysterious forest.  A path splits into two. Do you dare to enter?</p>
+
         <div id="choices">
-            <button onclick="choosePath('continue')">Say hello to the frog</button>
-            <button onclick="choosePath('leave')">Say nothing and keep walking</button>
+            <button id="action-button" onclick="nextChoice()">Open the door</button>
         </div>
-       <p id="result"></p>
+    </div>
 
-    <script> 
- let path = "";
-    
-    function makeChoice(choice) {
-        path += choice;
-    
-        let storyText = "";
-        let imageSrc = "";
-        let resultText = "";
-    
-        if (path === "continue") {
-            storyText = "You find a hidden cave.";
-            imageSrc = "cave.jpg";
-        } else if (path === "center") {
-            storyText = "You encounter a friendly gnome.";
-            imageSrc = "gnome.jpg";
-        } else if (path === "leave") {
-            storyText = "You stumble upon a treasure chest!";
-            imageSrc = "treasure.jpg";
-            resultText = "You win!";
-        } else if (path === "leftleft") {
-          storyText = "The cave is dark and spooky.";
-          imageSrc = "darkcave.jpg";
-          resultText = "You are scared!";
-        } else if (path === "leftcenter" || path === "centercenter" || path === "rightcenter" || path === "leftright" || path === "centerleft" || path === "centerright" || path === "rightleft" || path === "rightright" || path === "leftleftleft" || path === "leftleftcenter" || path === "leftleftright" || path === "leftcenterleft" || path === "leftcentercenter" || path === "leftcenterright" || path === "leftrightleft" || path === "leftrightcenter" || path === "leftrightright" || path === "centerleftleft" || path === "centerleftcenter" || path === "centerleftright" || path === "centercenterleft" || path === "centercentercenter" || path === "centercenterright" || path === "centerrightleft" || path === "centerrightcenter" || path === "centerrightright" || path === "rightleftleft" || path === "rightleftcenter" || path === "rightleftright" || path === "rightrightleft" || path === "rightrightcenter" || path === "rightrightright" || path === "rightleftleft" || path === "rightleftcenter" || path === "rightleftright" || path === "rightrightleft" || path === "rightrightcenter" || path === "rightrightright") {
-          storyText = "You are lost.";
-          imageSrc = "lost.jpg";
-          resultText = "Game Over";
-        }
-    
-    
-        document.getElementById("story").textContent = storyText;
-        document.getElementById("scene").src = imageSrc;
-        document.getElementById("result").textContent = resultText;
-    }
-    </script>
-   
-
-
+    <script src="script.js"></script>
 </body>
+</html>
