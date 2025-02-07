@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: rgb(166, 115, 166);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* Title */
+h1 {
+    font-family:cursive;
+    color: black;
+
+}
+img {
+    margin-top: .5em;
+}
+
+p {
+    margin-top: .5em;
+}
+
+button {
+    margin: 5px;  
+    background-color: rgb(255, 197, 234);
+}
+
+
+input {
+    margin-top: .5em;
+}
+
+#story-container {
+    margin: 20px;
+}
