@@ -6,7 +6,7 @@ var allImages = new Array();
 var allTexts = new Array();
 var allShapes = new Array();
 
-class ArtElement {
+class ElementInfo {
     constructor(selector, content) {
         this.selector = selector;
         this.content = content;
@@ -26,17 +26,17 @@ class ArtElement {
 }
 
 function initializeArray() {
-    allImages.push(new ArtElement("#artImage", "images/image1.jpg"));
-    allImages.push(new ArtElement("#artImage", "images/image2.jpg"));
-    allImages.push(new ArtElement("#artImage", "images/image3.jpg"));
+    allImages.push(new ElementInfo("#artImage", "images/image1.jpg"));
+    allImages.push(new ElementInfo("#artImage", "images/image2.jpg"));
+    allImages.push(new ElementInfo("#artImage", "images/image3.jpg"));
 
-    allShapes.push(new ArtElement("#artShape", "square"));
-    allShapes.push(new ArtElement("#artShape", "circle"));
-    allShapes.push(new ArtElement("#artShape", "triangle"))
+    allShapes.push(new ElementInfo("#artShape", "square"));
+    allShapes.push(new ElementInfo("#artShape", "circle"));
+    allShapes.push(new ElementInfo("#artShape", "triangle"))
 
-    allTexts.push(new ArtElement("#artText", "Australia is wider than the moon, measuring almost 4,000 km in diameter from east to west."));
-    allTexts.push(new ArtElement("#artText", "In the 1830s, ketchup was sold as a medicine to treat diarrhea, indigestion, and jaundice."));
-    allTexts.push(new ArtElement("#artText", "It's illegal to own just one guinea pig in Switzerland."));
+    allTexts.push(new ElementInfo("#artText", "Australia is wider than the moon, measuring almost 4,000 km in diameter from east to west."));
+    allTexts.push(new ElementInfo("#artText", "In the 1830s, ketchup was sold as a medicine to treat diarrhea, indigestion, and jaundice."));
+    allTexts.push(new ElementInfo("#artText", "It's illegal to own just one guinea pig in Switzerland."));
 ;
 }
 
@@ -91,7 +91,7 @@ $(document).ready(function () {
     function switchShape() {
         $(shapeSelector).fadeOut(1000, function () {
             currentShapeIndex = (currentShapeIndex + 1) % allShapes.length;
-            $(shapeSelector).removeClass().addClass("artElement " + allShapes[currentShapeIndex].theContent);
+            $(shapeSelector).removeClass().addClass("elementInfo " + allShapes[currentShapeIndex].theContent);
             $(shapeSelector).fadeIn(1000);
         });
     }
