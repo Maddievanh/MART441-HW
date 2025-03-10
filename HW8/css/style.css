@@ -1,0 +1,66 @@
+body {
+    background-color: #cde3af;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    background-color: #c8afe3;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px ;
+    position: absolute;
+}
+
+.artElement {
+    position: absolute;
+}
+
+#artImage {
+    width: 200px;
+    height: auto;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+}
+
+#artText {
+    font-size: 28px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    color:#bea7d7;
+}
+
+#artShape {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+    
+.square {
+    background-color: rgb(221, 14, 214);
+}
+
+.circle {
+    background-color: rgb(255, 58, 9);
+    border-radius: 50%;
+}
+
+#artImage, #artShape {
+    display: none; 
+}
