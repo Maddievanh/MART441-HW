@@ -10,8 +10,8 @@ $(document).ready(function () {
       success: function (data) {
         let output = "";
         $.each(data.results, function (i, item) {
-          output += "<div><strong>Product:</strong> " + item.product_description + "<br>";
-          output += "<strong>Recall Date:</strong> " + item.recall_initiation_date + "<br>";
+          output += "<div><strong>Product:</strong> " + item.product_description + "<br>" + "<br>";
+          output += "<strong>Recall Date:</strong> " + item.recall_initiation_date + "<br>"+ "<br>";
           output += "<strong>Reason:</strong> " + item.reason_for_recall + "</div><hr>";
         });
         $("#output").html(output);
