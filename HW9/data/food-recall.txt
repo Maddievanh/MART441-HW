@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care...",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2025-03-19",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 27138
+    }
+  },
+  "results": [
+    {
+      "status": "Terminated",
+      "city": "Davie",
+      "state": "FL",
+      "country": "United States",
+      "classification": "Class II",
+      "openfda": {},
+      "product_type": "Food",
+      "event_id": "75272",
+      "recalling_firm": "Pharmatech LLC",
+      "address_1": "4131 SW 47th Ave Ste 1403",
+      "address_2": "",
+      "postal_code": "33314-4036",
+      "voluntary_mandated": "Voluntary: Firm initiated",
+      "initial_firm_notification": "Letter",
+      "distribution_pattern": "FL, MI, MS, and OH.",
+      "recall_number": "F-0276-2017",
+      "product_description": "CytoDetox, Hydrolyzed Clinoptilolite Fragments, 1 oz./30 mL, OTC Non-Sterile.  Dietary supplement.",
+      "product_quantity": "1,990 bottles",
+      "reason_for_recall": "Recall initiated as a precautionary measure due to potential risk of product contamination with Burkholderia cepacia.",
+      "recall_initiation_date": "20160808",
+      "center_classification_date": "20161025",
+      "termination_date": "20240923",
+      "report_date": "20161102",
+      "code_info": "UPC No. 632687615989; Lot No. 30661601, Exp. Date 05/2018.",
+      "more_code_info": ""
+    }
+  ]
+}

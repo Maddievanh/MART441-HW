@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+  }
+h1 {
+    color: rgb(20, 78, 20);
+}
+  .highlight {
+    background-color: #ffffcc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+#loadData {
+    background-color: #0b2c17;
+    color: rgb(110, 205, 123);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .recall-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .recall-card:hover {
+    transform: scale(1.01);
+  }
+  
