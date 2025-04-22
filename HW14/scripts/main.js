@@ -33,7 +33,7 @@ scene.add(line);
 
 //  OBJ Model
 var loader = new THREE.OBJLoader();
-loader.load('../models/cat.obj', function (object) {
+loader.load('models/cat.obj', function (object) {
   modelObject = object;
   modelObject.scale.set(0.2, 0.2, 0.2);
   modelObject.position.y = -1;
