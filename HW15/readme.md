@@ -1,0 +1,1 @@
+This is the first part of the game- for the final I am going to try to learn to add some more fun effects/ start screen. 
